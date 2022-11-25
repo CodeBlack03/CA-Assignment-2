@@ -1,11 +1,5 @@
 #include <pthread.h>
 #include <stdlib.h>
-/*
- * Jack Lewis
- * Multithreaded matrix multiplication in C
- * Generates two n*n matrices, and multiplies them into a third n*n matrix
- * To compile: cc -D_GNU_SOURCE -lpthread -std=c11 mmultiply.c
- */
 
 /* Macro that controls the matrix dimensions */
 #define MATRIX_SIZE 5
